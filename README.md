@@ -3,6 +3,12 @@
 Send **different resource packs** to players automatically based on the device they're connecting from. Windows players get one pack, mobile players get another, Xbox players get another.
 
 ---
+## 💬 Support & Community
+
+Join our Discord server to get help with the extension, report bugs, or suggest new features!
+
+**[Click here to join the Discord!](https://discord.gg/aUfuRZjR9S)**
+---
 
 ## What it does
 
