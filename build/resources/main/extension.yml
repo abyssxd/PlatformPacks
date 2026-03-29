@@ -1,0 +1,7 @@
+id: platform-packs
+name: PlatformPacks
+version: 1.0.0
+api: 2.9.0
+authors:
+  - "AbisGamer"
+main: com.abishekbhusal.platformpacks.PlatformPacksExtension

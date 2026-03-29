@@ -1,0 +1,35 @@
+# PlatformPacks Configuration
+# Place your .mcpack or .zip resource pack files inside the extension's data folder:
+#   plugins/Geyser-Spigot/extensions/platform-packs/packs/
+#
+# Then set the filenames below for each platform group.
+# Leave a list empty ([]) to send no custom pack for that platform.
+# Packs are sent in order — last pack listed is applied on top.
+
+packs:
+  # Windows 10 / Windows 11 (via Minecraft for Windows)
+  windows:
+    - "windows_hd.mcpack"
+
+  # Android & iOS / iPadOS
+  mobile:
+    - "mobile_ui.mcpack"
+
+  # Xbox One & Xbox Series X|S
+  xbox:
+    - "xbox_controller.mcpack"
+
+  # PlayStation 4 & PlayStation 5
+  playstation:
+    - "ps_controller.mcpack"
+
+  # Nintendo Switch
+  nintendo:
+    - "switch_controller.mcpack"
+
+  # Any platform not listed above (also the fallback)
+  default:
+    - "default_pack.mcpack"
+
+# Set to true to print the detected platform for each connecting player
+debug: false

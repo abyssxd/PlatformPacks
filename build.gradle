@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
+group = 'com.example'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+repositories {
+    mavenCentral()
+    // OpenCollab main aggregator (releases + snapshots)
+    maven {
+        name = 'opencollab-releases'
+        url = 'https://repo.opencollab.dev/maven-releases/'
+    }
+    maven {
+        name = 'opencollab-snapshots'
+        url = 'https://repo.opencollab.dev/maven-snapshots/'
+    }
+}
+
+dependencies {
+    // Geyser API (provides Extension, events, pack API, etc.)
+    compileOnly 'org.geysermc.geyser:api:2.9.0-SNAPSHOT'
+    compileOnly 'org.geysermc.geyser:core:2.9.0-SNAPSHOT'
+}
+
+shadowJar {
+    archiveClassifier.set('')
+    minimize()
+}
+
+build.dependsOn shadowJar
