@@ -139,3 +139,14 @@ Turn it off again once everything is working.
 | All players get the same pack | Enable `debug: true` and check the console - it will show what platform each player is being detected as |
 | Extension doesn't appear to load | Make sure you're on Geyser 2.4.0+ and Java 17+ |
 | Config changes aren't taking effect | A full server restart is required - reloading Geyser alone is not enough |
+
+## ⚖️ License
+
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
+### What does this mean?
+*   **Share Alike**: If you modify this extension, you **must** release your modified version under the same AGPL-3.0 license.
+*   **Network Users**: If you run a modified version of this extension on a Minecraft server, you **must** make the source code available to your players/users.
+*   **No Loophole**: Unlike standard GPL, the AGPL ensures that "private" server-side modifications must still be shared if the public can interact with them.
+
+For the full license text, see the [LICENSE](LICENSE) file.
