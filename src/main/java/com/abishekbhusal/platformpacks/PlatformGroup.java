@@ -40,7 +40,7 @@ public enum PlatformGroup {
         return switch (deviceOsName.toUpperCase()) {
             case "WIN10", "WIN32", "WINDOWS_PHONE" -> WINDOWS;
 
-            case "ANDROID", "IOS" -> MOBILE;
+            case "ANDROID", "IOS", "GOOGLE" -> MOBILE;
 
             case "XBOX" -> XBOX;
 
