@@ -3,6 +3,12 @@
 Send **different resource packs** to players automatically based on the device they're connecting from. Windows players get one pack, mobile players get another, Xbox players get another.
 
 ---
+## 💬 Support & Community
+
+Join our Discord server to get help with the extension, report bugs, or suggest new features!
+
+**[Click here to join the Discord!](https://discord.gg/aUfuRZjR9S)**
+---
 
 ## What it does
 
@@ -139,3 +145,13 @@ Turn it off again once everything is working.
 | All players get the same pack | Enable `debug: true` and check the console - it will show what platform each player is being detected as |
 | Extension doesn't appear to load | Make sure you're on Geyser 2.4.0+ and Java 17+ |
 | Config changes aren't taking effect | A full server restart is required - reloading Geyser alone is not enough |
+
+## ⚖️ License
+
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
+### What does this mean?
+*   **Share Alike**: If you modify this extension, you **must** release your modified version under the same AGPL-3.0 license.
+*   **Network Users**: If you run a modified version of this extension on a Minecraft server, you **must** make the source code available to your players/users.
+
+For the full license text, see the [LICENSE](LICENSE) file.
